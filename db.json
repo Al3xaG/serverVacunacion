@@ -1,16 +1,121 @@
 {
-  "posts":[
+  "users": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": "8974f5e2-d9ad-4544-a3c3-54aa817625b1",
+      "email": "andres@gmail.com",
+      "identityNumber": "1758963265",
+      "name": "Andres Vinicio",
+      "lastname": "Rodriguez Perez",
+      "password": "Bgo1Z8AvZFVTJhcICL+QFw==",
+      "username": "1758963265",
+      "isActive": true,
+      "role": "EMPLEADO"
+    },
+    {
+      "id": "39a3bf38-57ef-4a42-a5ef-5fc778c94926",
+      "email": "carlos-dev@gmail.com",
+      "name": "Carlitos Stalyn",
+      "lastname": "Acosta Villegas",
+      "identityNumber": "1736958475",
+      "isActive": true,
+      "password": "zxrWxMgqT/gID9k5vx4m3Q==",
+      "role": "EMPLEADO",
+      "username": "1736958475"
+    },
+    {
+      "id": "9818586d-0970-454c-89cd-91e4d0ab3c5b",
+      "email": "yeye@gmail.com",
+      "identityNumber": "0789513626",
+      "name": "Jessenia Alexandra",
+      "lastname": "Chuquimarca Sosapanta",
+      "password": "Pl5Jd/Jyv7Hms1g2KlcN7g==",
+      "username": "0789513626",
+      "isActive": true,
+      "role": "EMPLEADO"
+    },
+    {
+      "id": "dbc8a4bb-7bfb-42b4-80b5-3f03feaeb547",
+      "email": "alexandrabbgf@gmail.com",
+      "identityNumber": "1722812037",
+      "name": "Alexandra",
+      "lastname": "Gualotuña Fernandez",
+      "password": "TYXVqdkoUEHCTDmEx9M3Cw==",
+      "username": "administrador",
+      "isActive": true,
+      "role": "ADMINISTRADOR"
+    },
+    {
+      "id": "f2aa178f-28f7-4b33-a3fa-bce6fbbb00c7",
+      "email": "julio.gonzalez@gmail.com",
+      "password": "4kxJY3H3LKmNOsRwLTAIgQ==",
+      "identityNumber": "1723586283",
+      "lastname": "Gonzalez Pallo",
+      "name": "Julio Israel",
+      "isActive": false,
+      "role": "EMPLEADO",
+      "username": "1723586283"
     }
   ],
-  "comments" : [
+  "employees": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": "a4b0b110-ac97-4edd-8206-8c3dbabac8c4",
+      "userId": "8974f5e2-d9ad-4544-a3c3-54aa817625b1",
+      "birthday": "05/11/1990",
+      "address": "Av.Shyris",
+      "cellphone": "0987654321",
+      "isActive": true,
+      "isVaccinated": false,
+      "vaccine": {
+        "date": "",
+        "dosesNumber": 0,
+        "status": false,
+        "vaccineType": ""
+      }
+    },
+    {
+      "id": "12b8e016-55bb-4f7c-aa7d-8ac0b0d824fd",
+      "userId": "39a3bf38-57ef-4a42-a5ef-5fc778c94926",
+      "birthday": "20/02/1989",
+      "address": "Av. Simon Bolivar",
+      "cellphone": "0963587421",
+      "isActive": true,
+      "isVaccinated": false,
+      "vaccine": {
+        "status": false,
+        "date": "",
+        "dosesNumber": 0,
+        "vaccineType": ""
+      }
+    },
+    {
+      "id": "f8e3d495-aa04-43a1-b391-b3c6393d2757",
+      "userId": "9818586d-0970-454c-89cd-91e4d0ab3c5b",
+      "birthday": "07/04/1992",
+      "cellphone": "0954875723",
+      "address": "Av. Gran Colombia",
+      "isActive": true,
+      "isVaccinated": true,
+      "vaccine": {
+        "status": true,
+        "date": "01/01/2022",
+        "dosesNumber": 2,
+        "vaccineType": "AstraZeneca"
+      }
+    },
+    {
+      "isVaccinated": false,
+      "vaccine": {
+        "date": "",
+        "dosesNumber": 0,
+        "status": false,
+        "vaccineType": ""
+      },
+      "birthday": "",
+      "cellphone": "",
+      "address": "",
+      "id": "9ce4cc7e-8baa-41a0-9ff3-9feb4ed4c47a",
+      "userId": "f2aa178f-28f7-4b33-a3fa-bce6fbbb00c7",
+      "isActive": false
     }
   ]
 }
